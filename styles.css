@@ -1,0 +1,105 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(to bottom, #e48826, #a0b3a8);
+}
+
+/* ... Resto de tu código CSS ... */
+
+.fancy-heading {
+    /* ... Estilos del encabezado ... */
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.fancy-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.fancy-nav {
+    list-style: none;
+    text-align: center;
+}
+
+.fancy-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.fancy-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.fancy-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.fancy-section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.fancy-subheading {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.fancy-text {
+    line-height: 1.5;
+}
+
+.fancy-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.fancy-footer p {
+    font-size: 1rem;
+}
+
+.external-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.external-link:hover {
+    text-decoration: none;
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(to bottom, #e48826, #bb99b7, #ecc8c9, #c6a78f, #a0b3a8);
+}
+/* Resto de tu código CSS */
+
+.fancy-section img {
+    max-width: 50%; /* Limita el ancho máximo de la imagen al ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+}
+.fancy-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: url('imagenes/fuego.webp'), auto; /* Reemplaza 'temperatura.png' con la ruta de tu imagen de puntero */
+}
